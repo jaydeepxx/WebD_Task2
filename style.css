@@ -1,0 +1,41 @@
+
+  body {
+    height: 50%;
+    margin: 10;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #06062e;
+    opacity: 1;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    background: white;
+    border-style: solid;
+    
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid #01010e;
+  }
+
+  hr {
+    width: 85%;
+    border-top: 3px solid #00000a;
+  }
+
+  form {
+    display: inline-flex;
+  }
+
+table,
+tr,
+td {
+  border: 3px solid #000002;
+}
